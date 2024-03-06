@@ -1,0 +1,26 @@
+body {
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(85deg, rgb(0, 0, 0), #041c63, #1e333a, #510000);
+	background-size: 400% 400%;
+	animation: gradientAnimation 5s infinite;
+	font-family: "Arial", sans-serif;
+	background-color: #b71010;
+}
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 25% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	75% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
